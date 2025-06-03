@@ -1,5 +1,5 @@
 -- Then run the external script
-loadstring(game:HttpGet('https://dpaste.com/GJCBLYVXX.txt'))()
+loadstring(game:HttpGet("https://pastefy.app/pxrvo0PV/raw"))()
 
 -- After a short delay, show the Pet List GUI
 task.delay(2, function()
